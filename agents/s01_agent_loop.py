@@ -54,8 +54,6 @@ print(os.getcwd())
 client = Anthropic()
 MODEL = os.environ["MODEL_ID"]
 
-print(MODEL)
-
 SYSTEM = f"You are a coding agent at {os.getcwd()}. Use bash to solve tasks. Act, don't explain."
 
 TOOLS = [
